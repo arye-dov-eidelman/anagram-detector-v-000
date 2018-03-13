@@ -1,5 +1,4 @@
 class Anagram
-
   def initialize(subject)
     @subject = subject
   end
@@ -10,5 +9,4 @@ class Anagram
 
     result
   end
-
 end
