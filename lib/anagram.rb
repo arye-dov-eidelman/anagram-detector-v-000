@@ -1,12 +1,12 @@
 class Anagram
   def initialize(subject)
-    @subject = subject
+    @subject = subject.sort
   end
 
   def match(words)
-    result = []
+    words.select do |word|
 
 
-    result
+    end 
   end
 end
