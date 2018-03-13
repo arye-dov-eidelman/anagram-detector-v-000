@@ -1,6 +1,6 @@
 class Anagram
   def initialize(subject)
-    @subject = subject.sort
+    @subject = subject.to_a.sort
   end
 
   def match(words)
